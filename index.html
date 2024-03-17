@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div id="container">
+    <div id="small-container">
+        <h1 class="h1div">
+            Airtime
+        </h1>
+        <select name="" id="network">
+            <option value="">Network</option>
+            <option value="MTN">MTN</option>
+            <option value="GLO">GLO</option>
+            <option value="AIRTEL">AIRTEL</option>
+            <option value="9MOBILE">9MOBILE</option>
+        </select>
+        <select name="" id="amount"> 
+            <option value="">Amount</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="500">500</option>
+            <option value="1000">1000</option>
+        </select>
+        <button id="bnt3" onclick="free()"> Generate Pin</button>
+        <h2 id="gen"></h2>
+       <div class="ter">
+        <input type="text" id="inpu" placeholder="Enter your pin">
+        <button id="bnt4" onclick="load()">load Airtime</button>
+       </div>
+    </div>
+   </div>
+</body>
+</html>
+<script src="function.js"></script>

@@ -3,31 +3,37 @@
     margin: 0;
 }
 #container{
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(black,blueviolet,white);
+    /* align-items: center; */
+    background-image: url(lakeside.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
 
 }
 .h1div{
+     color: white;
     font-size: 30px;
     width: 30%;
     margin: auto;
 }
 #small-container{
     padding: 20px;
+    margin-top: 40px;
     width: 35%;
      border-radius: 10px;
      box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) ,5px 5px 15px rgba(0, 0, 0, 0.2);
     height: 30vh;
-    background-color: white;
+    background-color: rgba(22, 20, 20, 0.329);
 }
 #gen{ 
-    width:70% ;
-    font-size: 20px;
+    width:100% ;
+    font-size: 25px;
+    color: white;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
     height: 5vh;
     /* background-color: blueviolet; */
 }
@@ -37,6 +43,17 @@
     border-radius: 10px;
     height: 5vh;
 }
+ #btnss{
+    width: 17%;
+    color: white;
+    height: 40px;
+      cursor: copy;
+    border-radius: 10px;
+    background:0;
+    border: 0;
+    background-color:rgb(244,114,155);
+    font-size: 18px;
+}
 #amount{
     height: 5vh;
     width: 30%;
@@ -45,9 +62,9 @@
 #bnt3{
     width: 25%;
     color: white;
-    height: 30px;
+    height: 25px;
     border-radius: 10px;
-    background-color:blueviolet;
+    background-color:rgb(244,114,155);
     border: 0;
 
 }
@@ -60,9 +77,38 @@
     height: 30px;
     color: white;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color:rgb(244,114,155);
     border: 0;
 }
 .ter{
     margin-top: 20px;
+}
+.rew{
+    height: 53vh;
+    overflow: auto;
+    margin-top: 40px;
+}
+#tableone,th{
+    border: 2px solid rgb(130,51,121);
+   width: 140px;
+
+    height: 50px;
+    color: white;
+}
+td,thead{
+    border: 2px solid rgb(130,51,121);
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+.ttpin{
+    width:500px;
+    border: 2px solid rgb(130,51,121);
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+.rew::-webkit-scrollbar{
+    display: none;
 }

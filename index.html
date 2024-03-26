@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/421cfd4472.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -10,17 +11,17 @@
    <div id="container">
     <div id="small-container">
         <h1 class="h1div">
-            Airtime
+            Airtime 
         </h1>
         <select name="" id="network">
-            <option value="">Network</option>
+            <option value=""  selected hidden>Network</option>
             <option value="MTN">MTN</option>
             <option value="GLO">GLO</option>
             <option value="AIRTEL">AIRTEL</option>
             <option value="9MOBILE">9MOBILE</option>
         </select>
         <select name="" id="amount"> 
-            <option value="">Amount</option>
+            <option value=""  selected hidden>Amount</option>
             <option value="100">100</option>
             <option value="200">200</option>
             <option value="500">500</option>
@@ -31,6 +32,20 @@
        <div class="ter">
         <input type="text" id="inpu" placeholder="Enter your pin">
         <button id="bnt4" onclick="load()">load Airtime</button>
+       </div>
+       <div class="rew">
+        <table>
+            <thead>
+                <th>Amount</th>
+                <th>Network</th>
+                <th class="ttpin">pin</th>
+                <th>date/time</th>
+                <th>copy</th>
+            </thead>
+            <tbody id="tableone">
+    
+            </tbody>
+           </table>
        </div>
     </div>
    </div>

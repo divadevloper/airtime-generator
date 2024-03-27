@@ -51,7 +51,7 @@ function free() {
         <td>${element.Amount}</td>
         <td>${element.pin}</td>
         <td>${element.date}</td>
-        <td>${'<button title="copied" id ="btnss" onclick ="copyp()"> <i class="fa-regular fa-clipboard"></i></button>'}</td>
+        <td>${'<button title="copied" id ="btnss" oncgitlick ="copyp()"> <i class="fa-regular fa-clipboard"></i></button>'}</td>
         </tr>
         `
     }
@@ -65,9 +65,7 @@ function load() {
     
     else if (inp.value.startsWith("*311*") && inp.value.includes(airtime) && inp.value.endsWith("#")) {
         alert(` you have successfully recharge ${network.value} N${amounts.value} Airtime`)
-    }else if(inp.value.includes(allPin)){
-        alert('okayyyyy')
-   }
+    }
     else {
         alert("Incorret pin")
     }
